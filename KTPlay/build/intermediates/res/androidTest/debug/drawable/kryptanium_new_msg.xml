@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <solid android:color="#ff0000" />
+    <stroke android:width="2dp" android:color="#ffffff"/>
+</shape><!-- From: file:/C:/Users/Administrator/AndroidstudioProjects/Graduates/KTPlay/res/drawable/kryptanium_new_msg.xml --><!-- From: file:/C:/Users/Administrator/AndroidstudioProjects/Graduates/KTPlay/build/intermediates/bundles/debug/res/drawable/kryptanium_new_msg.xml -->

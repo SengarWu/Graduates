@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <solid android:color="#aa444444" />
+    <corners android:radius="30dp" />
+</shape><!-- From: file:/C:/Users/Administrator/AndroidstudioProjects/Graduates/KTPlay/res/drawable/kryptanium_colorbg_tran_black_btn_save.xml --><!-- From: file:/C:/Users/Administrator/AndroidstudioProjects/Graduates/KTPlay/build/intermediates/bundles/debug/res/drawable/kryptanium_colorbg_tran_black_btn_save.xml -->

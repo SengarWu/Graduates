@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+    <solid android:color="#d5d5d5" />
+    <corners android:radius="2dp"/>
+</shape><!-- From: file:/C:/Users/Administrator/AndroidstudioProjects/Graduates/KTPlay/res/drawable/kryptanium_default_icon_app_fitxy.xml -->

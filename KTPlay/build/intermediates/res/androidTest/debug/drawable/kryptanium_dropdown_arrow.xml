@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/kryptanium_topic_classify_text_down_selected" 
+        android:state_selected="true"></item>  
+    <item android:drawable="@drawable/kryptanium_topic_classify_text_down"
+         android:state_selected="false"
+        />
+        
+</selector><!-- From: file:/C:/Users/Administrator/AndroidstudioProjects/Graduates/KTPlay/res/drawable/kryptanium_dropdown_arrow.xml --><!-- From: file:/C:/Users/Administrator/AndroidstudioProjects/Graduates/KTPlay/build/intermediates/bundles/debug/res/drawable/kryptanium_dropdown_arrow.xml -->

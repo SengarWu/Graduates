@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+
+    defaultConfig {
+        applicationId "com.xpple.graduates"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 168
+        versionName "1.6.8"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'uk.co.chrisjenx:calligraphy:2.1.0'
+    compile 'com.android.support:support-v4:22.2.0'
+    compile files('libs/alipaysdk.jar')
+    compile files('libs/alipaysecsdk.jar')
+    compile files('libs/alipayutdid.jar')
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile project(':KTPlay')
+    compile files('libs/BmobPay_V1.0.2.jar')
+    compile files('libs/YoumiSdk_v5.1.0_2015-06-02.jar')
+}

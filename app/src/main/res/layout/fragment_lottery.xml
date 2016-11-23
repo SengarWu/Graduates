@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ui.gameFragment.LotteryFragment"
+    android:background="@mipmap/bg_lottery">
+
+    <TextView
+        android:id="@+id/tv_lottery_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/tv_lottery_0"
+        android:textColor="@color/base_color_text_black"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/iv_lottery"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/ImageViewDescription" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_lottery"
+        android:layout_centerHorizontal="true"
+        android:text="@string/lottery"
+        android:textColor="@color/base_color_text_white"
+        android:background="@color/color_half_transparent" />
+
+    <Button
+        android:id="@+id/btn_lottery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/buy"
+        android:layout_below="@+id/textView" />
+</RelativeLayout>

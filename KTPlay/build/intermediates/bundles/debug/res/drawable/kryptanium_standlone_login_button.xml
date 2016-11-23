@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <solid android:color="@color/kryptanium_standalone_login_button_bg"/>
+    <corners android:radius="1dp"></corners>
+</shape>
+<!-- From: file:/C:/Users/Administrator/AndroidstudioProjects/Graduates/KTPlay/res/drawable/kryptanium_standlone_login_button.xml -->
